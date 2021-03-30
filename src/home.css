@@ -1,0 +1,118 @@
+.App__home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* { Home Banner starts } */
+
+  .Home__imageBanner{
+    width: 1200px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 200px;
+  }
+
+  /* { Home Banner ends } */
+
+/*
+  .Home__imageBanner {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row; 
+  }
+
+  .Home__imageBanner img {
+    width: 100%;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 200px;
+     object-fit: cover; 
+  }
+*/
+
+/* Side FIlter */
+
+/* .navbarr{
+  background-color: bl;
+  width: 200px;
+} */
+
+.Filter{
+  margin-top: -12.5rem;
+  margin-left: 5rem;
+  font-size: 1.5rem ;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color:black;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+  /* top: 0; */
+  left: -100%;
+  transition: 850ms;
+  border-radius: 0.5rem;
+}
+
+.nav-menu.active{
+  left: 0rem;
+  transition: 350ms;
+}
+
+.nav-text{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+/* height: 100%;  */
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover{
+  background-color: #1a83ff;
+/* not working */
+}
+
+.nav-menu-items{
+  width: 100%;
+  
+}
+
+.navbarr-toggle{
+  border-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  margin-left: 13rem;
+  margin-top: 1rem;
+  font-size: 28px;
+ 
+}
+
+span{
+  margin-left: 16px;
+  margin-top: -8rem;
+}
+  
