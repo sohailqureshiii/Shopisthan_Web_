@@ -7,6 +7,7 @@ import WorldIcon from '../img/world-icon.svg';
 import CartIcon from '../img/cart-icon.svg';
 import ProfilePic from '../img/profile-pic.jpeg';
 import Notification from '../img/notfi.png';
+import { Link, Router,  BrowserRouter} from 'react-router-dom';
 
 
 function navbar() {
@@ -52,12 +53,13 @@ function navbar() {
             
           
             <div className="Navbar__createShopBtn" >
-            <a  href="/createshop" style={{textDecoration :'none', color : 'white'}}>
+              
+            <Link to="/createShop" style={{textDecoration :'none', color : 'white'}}>
             CreateShop
-                </a>
+                </Link>
             </div>
             <div className="Navbar__loginBtn" >
-            <a  href="/createshop" style={{textDecoration :'none', color : 'white', textAlign: 'center'}}>
+            <a  href="/createShop" style={{textDecoration :'none', color : 'white', textAlign: 'center'}}>
             Login
                 </a>
             </div>
